@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript Tags Input Example </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+ <body>
+	<header class="intro">
+	</header>
+<main>
+ <article>
+			<p>The following is the example of JavaScript tag input with tag drag. </p>
+		<div class="simple-tags"
+			id="container" 
+			data-simple-tags="Category, Blog, Page, Post , Get , Put ,  Deleted">
+
+		</div>
+			<div class="form__group field">
+				<input  class="form__field" type="input" id="input">
+				<label class="form__label" for="name">New Tag</label>
+			</div>
+ </article>
+</main>
+
+<script>
+var el = document.getElementById('container');
+new Tags(el);
+</script>
+
+ </body>
+</html>

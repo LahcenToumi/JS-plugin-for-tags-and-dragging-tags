@@ -1,0 +1,122 @@
+.simple-tags {
+  border: 1px solid #90a955;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 0em 0.5em;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  border-radius: 5px; }
+  .simple-tags > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap; }
+  .simple-tags ul li a {
+    margin: 0.5em 0.2em;
+    text-decoration: none;
+    color: inherit; }
+
+    
+.tag__name {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.1em;
+  background-color: #31572c;
+  padding: 6px 23px 9px;
+  border-radius: 70em;
+  margin: 8px 6px 8px 0;
+  margin-left: 0px;
+  position: relative;
+  text-transform: lowercase;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.tag__name::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #90a955;
+}
+
+.tag__name::before {
+  left: 7px;
+}
+
+.tag__name::after {
+  right: 7px;
+}
+
+.tag__name:hover {
+  transform: scale(1.1);
+  background-color: #51572c;
+}
+
+
+    .over {
+      transform: scale(1.1, 1.1);
+      } 
+
+
+
+      .form__group {
+        position: relative;
+        padding: 20px 0 0;
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      .form__field {
+        font-family: inherit;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: 0;
+        font-size: 17px;
+        color: #31572c;
+        padding: 7px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+      }
+      
+      
+      .form__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 17px;
+        color: #333;
+        pointer-events: none;
+      }
+      
+      .form__field:focus {
+        padding-bottom: 6px;
+        font-weight: 700;
+        border-width: 3px;
+        border-image: linear-gradient(to right, #FFE699, #5D3294);
+        border-image-slice: 1;
+      }
+      
+      .form__field:focus ~ .form__label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 17px;
+        color: #5D3294;
+        font-weight: 700;
+      }
+      
+      /* reset input */
+      .form__field:required, .form__field:invalid {
+        box-shadow: none;
+      }
