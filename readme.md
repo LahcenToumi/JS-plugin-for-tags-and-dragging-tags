@@ -3,7 +3,7 @@
 
 JS plugin for tags and dragging tags
 
-Demo : 
+Demo : https://toumi-v7.github.io/JS-plugin-for-tags-and-dragging-tags/
 
 ### Getting Started
 Simply add the `data-simple-tags-wiht-tag-drag` with your desired values, for example `Category, Blog, Page, Post , Get , Put ,  Deleted`.
