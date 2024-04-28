@@ -23,5 +23,5 @@ NOTE!  Ensure these files are included on your project.
 ```
 In addition to this, the `data-simple-tags` will update whenever a new tag or deleted tag has been made. 
 
-
+![image](https://github.com/toumi-v7/JS-plugin-for-tags-and-dragging-tags/assets/96916414/5e754bb3-866c-4ede-b020-59baca4475e5)
 
